@@ -1,6 +1,6 @@
 
-function Main(proms) {
- const articles = proms.results;
+function Main(props) {
+ const articles = props.results;
  console.log(articles);
     if (articles===null){
       return (
